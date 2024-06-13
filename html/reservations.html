@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort</title>
+    <link href="../css/main.css" rel="stylesheet" /></head>
+
+<body>
+    <!-- Lägg till innehåll-->
+    <div id="wrapper">
+
+        <header>
+            <h1>Pacific Trails Resort</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Hoppa till Index</a></li>
+                <li> <a href="activities.html">Hoppa till Activites</a>
+                </li>
+                <li> <a href="thanks.html">Hoppa till Thanks</a>
+                </li>
+                <li> <a href="yurt.html">Hoppa till Yurt</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h2>Reservations at Pacific Trails</h2>
+                    <p>Fill in the form and we will be in contact with you</p>
+                </header>
+
+                <form method="post" action="thanks.html">
+                    <p>
+                        <label for="FirstName">First Name*:</label>
+                        <input type="text" name="firstName" id="FirstName" required>
+                    </p>
+                    <p>
+                        <label for="LastName">Last Name:*</label>
+                        <input type="text" name="lastname" id="LastName" required>
+                    </p>
+                    <p>
+                        <label for="Email">E-mail*:</label>
+                        <input type="email" name="email" id="Email" required pattern="\w+@\w+.+\w">
+                    </p>
+                    <p>
+                        <label for="Phone">Phone:</label>
+                        <input type="tel" name="phone" id="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}-">
+                    </p>
+                    <p>
+                        <label for="Arrival">Arrival Date*:</label>
+                        <input type="date" name="arrival" id="Arrival" required>
+                    </p>
+                    <p>
+                        <label for="Nights">Nights:</label>
+                        <select name="nights" id="Nights">
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="Comments"> Comments:</label>
+                        <textarea name="comments" id="Comments" rows="5" cols="30"></textarea>
+                    </p>
+                    <input type="submit" value="Submit your reservation">
+                    <input type="reset" value="Clear the form">
+                </form>
+
+
+            </section>
+        </main>
+
+
+
+
+        <footer>
+            <p>Adress 12010 Pacific Trails Road, Zepyr, CA 9555.</p>
+            <p>Phone (888) 555-5555</p>
+            <p>Email info@pacificresort.tid</p>
+        </footer>
+
+
+        <div id="copyright">
+            <ul>
+                <li>
+                    <p>&copy; Pacific Trails Resort</p>
+                </li>
+                <li>
+                    <p>Design: HTML 5 UP</p>
+                </li>
+            </ul>
+        </div> <!--End copyright-->
+
+
+    </div> <!--End wrapper-->
+</body>
+
+</html>
