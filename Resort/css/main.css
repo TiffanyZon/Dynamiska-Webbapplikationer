@@ -8,19 +8,24 @@
     src: url(fonts/Merriweather/Merriweather-Regular.ttf);
 }
 
-html{
+html {
     font-size: 105%;
 
 }
 
-body{
-    font-family: Merriweather, Georgia, serif;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.375;
+body {
+    font: 300 1rem/1.375 Merriweather, Georgia, serif;
+    color: #212931;
 }
 
-h1,h2,h3{
+#wrapper {
+    background: url("../images/Sunset_at_Pacific_Ocean.jpg") no-repeat fixed;
+    background-size: 100% auto;
+}
+
+h1,
+h2,
+h3 {
     font-family: "Source Sans 3", Helvetica, sans-serif;
     font-weight: 900;
     letter-spacing: 0.075em;
@@ -29,29 +34,40 @@ h1,h2,h3{
 h1 {
     font-size: 2.25rem;
     text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
 }
 
-h2{
+h2 {
     font-size: 4rem;
     line-height: 1.1;
     text-align: center;
 }
 
-h3{
+h3 {
     font-size: 1.75rem;
 }
 
-p{
+p {
     text-align: justify;
 }
 
-footer p{
+main {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #F5F5F5;
+}
+
+footer p {
     font-size: 0.9rem;
     text-align: center;
 }
 
-#copyright{
+#copyright {
     text-align: center;
     text-transform: uppercase;
     font-size: 0.8rem;
+    color: #000;
+    background-color: #fff;
 }
